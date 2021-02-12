@@ -1,0 +1,30 @@
+.Dossier{
+  width: 250px;
+  height: 480px;
+  margin: 10px;
+  padding: 5px;
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+  .image{
+    height: 34%;
+  }
+  img{
+      width: 100%;
+  }
+  .info{
+    background-color: yellow;
+    color: white;
+
+    .titre{
+      font-size: 0.8em;
+      line-height: 1.2em;
+    }
+
+    p{
+        margin: 10px;
+        height: 30px;
+        font-weight: 500;
+    }
+  }
+}
