@@ -1,3 +1,3 @@
-# Titre du site Web ou application
+# Exercice de signets | Marie-Lou Denis
 
-Court texte présentant votre site Web/application.
+Application React programmé dans le cadre du cours de veille technologique pour classer des signets
