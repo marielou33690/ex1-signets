@@ -1,17 +1,15 @@
 .Dossier{
   width: 250px;
-  height: 480px;
   margin: 10px;
-  padding: 5px;
   background-color: white;
   overflow: hidden;
-  text-align: center;
-  .image{
-    height: 34%;
-  }
+  // text-align: center;
+  box-shadow: 0 0 11px 1px rgba(0,0,0,0.38);
+
   img{
       width: 100%;
   }
+
   .info{
     background-color: yellow;
     color: white;
@@ -25,6 +23,10 @@
         margin: 10px;
         height: 30px;
         font-weight: 500;
+    }
+
+    .points{
+      text-align: center;
     }
   }
 }

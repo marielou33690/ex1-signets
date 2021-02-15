@@ -1,4 +1,5 @@
 import './Entete.scss';
+import avatar from './avatar.png';
 
 export default function Entete(props) {
     return(
@@ -7,7 +8,7 @@ export default function Entete(props) {
         <ul className="navUtil">
           <li>Marie-Lou Denis</li>
           <li>
-            <img src="avatar.png" alt=""/>
+            <img src={avatar} alt=""/>
           </li>
         </ul>
       </header>

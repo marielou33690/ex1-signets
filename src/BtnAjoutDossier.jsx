@@ -1,7 +1,8 @@
 import './BtnAjoutDossier.scss';
+import AddCircleIcon from '@material-ui/icons/AddCircle';
 
 export default function BtnAjoutDossier(props) {
     return(
-        <button></button>
+        <button><AddCircleIcon/></button>
     );
 }

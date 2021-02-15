@@ -16,7 +16,7 @@ export default function Dossier(props) {
             <div className="info" style={couleur}>
                 <h2>{props.titre}</h2>
                 <p>{'Modifié le : ' + props.dateModif}</p>
-                <MoreVertIcon />
+                <MoreVertIcon className="points"/>
             </div>
         </li>
     );
