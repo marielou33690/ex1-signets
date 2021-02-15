@@ -7,7 +7,7 @@ export default function Entete(props) {
         <ul className="navUtil">
           <li>Marie-Lou Denis</li>
           <li>
-            <img src="public/avatar.png" alt=""/>
+            <img src="avatar.png" alt=""/>
           </li>
         </ul>
       </header>
